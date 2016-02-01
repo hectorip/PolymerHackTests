@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-elements",
+  "version": "0.1.0",
+  "description": "Bootstrap elements (Polymer based)",
+  "main": "demo.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichelAyala/bootstrap-elements.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "elements",
+    "components",
+    "polymer"
+  ],
+  "author": "Michell Ayala <starships@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MichelAyala/bootstrap-elements/issues"
+  },
+  "homepage": "https://github.com/MichelAyala/bootstrap-elements#readme",
+  "dependencies": {
+    "eslint": "1.10.3"
+  },
+  "devDependencies": {
+    "polyserve": "0.5.0"
+  }
+}

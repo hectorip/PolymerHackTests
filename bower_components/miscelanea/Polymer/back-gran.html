@@ -1,0 +1,97 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="back-gran">
+	<template>
+	<style>
+		/* Wrapper */
+	#wrapper {
+		color: #fff;
+		background: #111111;
+	    min-height: 100%;
+	    position: relative;
+	}
+		/* Header */
+	#header {
+       	color: #fff;
+    	background: #061828;
+	   	padding-bottom: 81px; /* El tamaño del footer para evitar el sobreposicionamiento */
+	}
+		/* content */
+	#content {
+    	color: #fff;
+    	background: #1f3448;
+	   	padding-bottom: 250px auto; /* El tamaño del footer para evitar el sobreposicionamiento */
+	   
+	}
+	 	/* footer */
+	#footer {
+		color: #fff;
+		background: #232323; 
+		width: 100%;
+    	height: 81px;
+    	position: static;
+    	bottom: 0;
+    	left: 0;
+	}
+	#portada{
+		width: 100%;
+		height: 250px ;
+		margin: auto ;
+	}
+	#conjunt{
+		padding-top: 30px;
+		width: 1000px auto;
+		height: 250px auto;
+		margin:  auto;
+		margin-left:25px  auto; 
+	}
+	img{
+		width: 300px;
+		height: 200px;
+		margin: 0px;
+		margin-left: 10px; 
+	}
+	h1{
+		font-family:Verdana ;
+		font-size:50px;
+		margin: auto;
+		position: absolute; /* podría ser relative */
+ 		width: 100px;
+ 		left: 250px auto;
+ 		height: 200px;
+	}
+		</style>
+
+		<div id="wrapper">
+        		<div id="header">
+        			<h1>LOGO</h1>
+        		</div>
+        		<div id="content">
+        			<div>
+        				<img src="images/one.jpg" id="portada">
+        			</div>
+        			<div id="conjunt">
+        				<img src="images/thumbs/01.jpg" >
+        				<img src="images/thumbs/02.jpg" >
+        				<img src="images/thumbs/03.jpg" >
+						<img src="images/thumbs/03.jpg" >
+        				<img src="images/thumbs/01.jpg" >
+        				<img src="images/thumbs/02.jpg" >  
+        				<img src="images/thumbs/02.jpg" >
+        				<img src="images/thumbs/03.jpg" >
+           			</div>
+        		</div>
+        		<div id="footer">
+        				<center id="coming">This a footer hou yeah!!</center>
+    	    	<center id="coming">Design by @LeonShantes</center>
+        		</div>
+   		</div>
+
+	</template>
+
+	<script>
+		Polymer({
+			is: 'back-gran'
+		})
+	</script>
+</dom-module>

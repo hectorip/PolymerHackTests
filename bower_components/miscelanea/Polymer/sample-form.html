@@ -1,0 +1,84 @@
+
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<dom-module id="sample-form" >
+
+	<template >
+	<style>
+	form{
+		background:#1E5799;
+		width: 360px;
+		border: 1px solid #4e4d4d;
+		border-radius: 3px;
+		-moz-border-radius: 3px;
+		-webkid-border-radius: 3px;
+		box-shadow:inset 0 0 10px #000 ;
+		margin: 100px auto;
+	}
+	form h1 {
+		text-align: center;
+		color:#fff;
+		font-weight: normal;
+		font-size: 40pt;
+		margin:30px 0px;
+		font-family: 'Pinyon Script', cursive;
+	}
+	form input{
+		width: 280px;
+		height: 35px;
+		padding: 0px 10px;
+		margin: 10px 30px;
+		color:#7db9e8;
+		text-align:center; 
+	}
+	form button{
+		width: 135px;
+		margin: 20px 0px 30px 30px;
+		height: 50px;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,1e5799+100 */
+background: #7db9e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #7db9e8 0%, #1e5799 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #7db9e8 0%,#1e5799 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #7db9e8 0%,#1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+
+	border:1px solid #7db9e8;
+	color: #fff;
+	box-shadow: 0px 2px 0px #000;
+	-moz-box-shadow: 0px 2px 0px #000;
+	-webkid-box-shadow: 0px 2px 0px #000;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkid-border-radius: 3px;
+	}
+	form button:hover{
+		background:#7db9e8;
+	}
+	form button:active{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 0%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #1e5799 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1e5799 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+
+	}
+	
+	</style>
+		
+		<form>
+		<h1>Sample form</h1>
+		<input type="text" max-length="20" placeholder="Ingrese su usuario"/>
+		<input type="password" max-length="20" placeholder="Ingrese su contraseña"/>
+		<button type="button">Registrarse</button>
+		<button type="subimit">Iniciar Sesion</button>
+	</form>
+    	
+	</template>
+	<script>
+		Polymer({
+			is: 'sample-form'
+		});
+	</script>
+</dom-module>

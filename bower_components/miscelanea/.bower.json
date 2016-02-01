@@ -1,0 +1,14 @@
+{
+  "name": "miscelanea",
+  "homepage": "https://github.com/Algoritmia-UPIICSA/miscelanea",
+  "_release": "584851a93c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "584851a93c5791da40a09e3b1837782be112e85f"
+  },
+  "_source": "git://github.com/Algoritmia-UPIICSA/miscelanea.git",
+  "_target": "*",
+  "_originalSource": "Algoritmia-UPIICSA/miscelanea",
+  "_direct": true
+}

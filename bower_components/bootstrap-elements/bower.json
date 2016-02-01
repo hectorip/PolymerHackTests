@@ -1,0 +1,28 @@
+{
+  "name": "bootstrap-elements",
+  "homepage": "https://github.com/MichelAyala/bootstrap-elements",
+  "authors": [
+    "Michell Ayala <starships@outlook.com>"
+  ],
+  "description": "Bootstrap elements (Polymer based)",
+  "main": "demo.html",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+    "bootstrap",
+    "components",
+    "elements"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "polymer": "Polymer/polymer#^1.2.0"
+  }
+}

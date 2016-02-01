@@ -1,0 +1,47 @@
+<link rel="import" href="../../../bower_components/polymer/polymer.html">
+
+<dom-module id="alert-warning">
+	<style>
+		:host {
+			display: block;
+			background: rgb(240, 240, 240);
+			padding: 15px;
+			margin-bottom: 20px;
+			border: 1px solid rgb(200, 200, 200);
+			border-radius: 4px;
+		}
+		:host h4 {
+			margin-top: 0;
+			color: inherit;
+		}
+		:host :host-link {
+			font-weight: bold;
+		}
+		:host > p,
+		:host > ul {
+			margin-bottom: 0;
+		}
+		:host > p + p {
+			margin-top: 5px;
+		}
+		:host {
+		  color: #8a6d3b;
+		  background-color: #fcf8e3;
+		  border-color: #faebcc;
+		}
+		:host hr {
+		  border-top-color: #f7e1b5;
+		}
+		:host .alert-link {
+		  color: #66512c;
+		}
+	</style>
+	<template>
+		<content></content>
+	</template>
+	<script>
+		Polymer({
+			is: 'alert-warning'
+		})
+	</script>
+</dom-module>

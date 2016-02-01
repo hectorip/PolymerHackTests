@@ -1,0 +1,55 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<dom-module id="maps-location">
+    <template>
+        <google-map latitude='[[latitude]]' longitude='[[longitude]]' zoom='[[zoom]]'>
+            <google-map-marker latitude="[[latitude]]" longitude="[[longitude]]"  draggable="[[drag]]">
+                <img src="[[img]]">
+            </google-map-marker>
+        </google-map>
+    </template>
+</dom-module>
+<script>
+    Polymer({
+        is: 'maps-location',
+        properties:{
+            start:{
+                type: String,
+                value: "maps location"
+            },
+            latitude:{
+                type: Number,
+                value: 0
+            },
+            longitude:{
+                type: Number,
+                value: 0
+            },
+            zoom:{
+            	type: Number,
+            },
+            title:{
+                type: String,
+            },
+            img:{
+                type: String,
+            },
+            drag:{
+                type: Boolean,
+            },
+        },
+        ready: function(){
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(this.setGeoPosition.bind(this));
+            }
+            else{
+                console.log('browser incompatible');
+            }
+        },
+        setGeoPosition: function(position){
+            this.latitude = position.coords.latitude;
+            console.log(this.latitude);
+            this.longitude = position.coords.longitude;
+            console.log(this.longitude);
+        }
+    })
+</script>

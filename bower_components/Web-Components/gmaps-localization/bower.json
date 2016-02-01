@@ -1,0 +1,25 @@
+{
+  "name": "gmaps-localization",
+  "homepage": "htttps://github.com/LuisEvilCo/Web-Components/",
+  "authors": [
+    "Luis Tinajero Muñozcano <ltm150895@gmail.com>"
+  ],
+  "description": "This web component implements \"google-map\" web component in a single line, for ease of use, with love, but it needs an Api Key.",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "geolocation",
+    "google-map",
+    "web-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

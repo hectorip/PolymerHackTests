@@ -1,0 +1,25 @@
+{
+  "name": "maps-location",
+  "homepage": "https://github.com/LuisEvilCo/Web-Components/",
+  "authors": [
+    "Luis Tinajero Muñozcano <ltm150895@gmail.com>"
+  ],
+  "description": "Web-component that implements \"google-map\" official web-component with geolocalization prior to user permission, ability to add custom markers, zoom-level adjustment without need of an Api Key.",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "google-map",
+    "geolocalization",
+    "ease-of-use"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

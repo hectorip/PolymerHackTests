@@ -1,0 +1,126 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+
+<dom-module id="btn-info">
+  <style>
+    :host {
+      display: inline-block;
+      padding: 6px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 1.42857143;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      -ms-touch-action: manipulation;
+          touch-action: manipulation;
+      cursor: pointer;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      background-image: none;
+      border: 1px solid rgb(40, 40, 40);
+      border-radius: 4px;
+    };
+    :host:focus,
+    :host:active:focus,
+    :host.active:focus,
+    :host.focus,
+    :host:active.focus,
+    :host.active.focus {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px;
+    }
+    :host:hover,
+    :host:focus,
+    :host.focus {
+      color: #333;
+      text-decoration: none;
+    }
+    :host:active,
+    :host.active {
+      background-image: none;
+      outline: 0;
+      -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+              box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+    }
+    :host.disabled,
+    :host[disabled] {
+      cursor: not-allowed;
+      filter: alpha(opacity=65);
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      opacity: .65;
+    }
+
+    :host {
+      color: #fff;
+      background-color: #5bc0de;
+      border-color: #46b8da;
+    }
+    :host:focus,
+    :host.focus {
+      color: #fff;
+      background-color: #31b0d5;
+      border-color: #1b6d85;
+    }
+    :host:hover {
+      color: #fff;
+      background-color: #31b0d5;
+      border-color: #269abc;
+    }
+    :host:active,
+    :host.active,
+    .open > .dropdown-toggle:host {
+      color: #fff;
+      background-color: #31b0d5;
+      border-color: #269abc;
+    }
+    :host:active:hover,
+    :host.active:hover,
+    .open > .dropdown-toggle:host:hover,
+    :host:active:focus,
+    :host.active:focus,
+    .open > .dropdown-toggle:host:focus,
+    :host:active.focus,
+    :host.active.focus,
+    .open > .dropdown-toggle:host.focus {
+      color: #fff;
+      background-color: #269abc;
+      border-color: #1b6d85;
+    }
+    :host:active,
+    :host.active,
+    .open > .dropdown-toggle:host {
+      background-image: none;
+    }
+    :host.disabled:hover,
+    :host[disabled]:hover,
+    fieldset[disabled] :host:hover,
+    :host.disabled:focus,
+    :host[disabled]:focus,
+    fieldset[disabled] :host:focus,
+    :host.disabled.focus,
+    :host[disabled].focus,
+    fieldset[disabled] :host.focus {
+      background-color: #5bc0de;
+      border-color: #46b8da;
+    }
+    :host .badge {
+      color: #5bc0de;
+      background-color: #fff;
+    }
+  </style>
+
+  <template>
+    <content></content>
+  </template>
+
+  <script>
+    Polymer({
+      is: 'btn-info'
+    })
+  </script>
+</dom-module>

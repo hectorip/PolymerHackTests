@@ -1,0 +1,38 @@
+{
+  "name": "bootstrap-elements",
+  "homepage": "https://github.com/MichelAyala/bootstrap-elements",
+  "authors": [
+    "Michell Ayala <starships@outlook.com>"
+  ],
+  "description": "Bootstrap elements (Polymer based)",
+  "main": "demo.html",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+    "bootstrap",
+    "components",
+    "elements"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "polymer": "Polymer/polymer#^1.2.0"
+  },
+  "_release": "99ffcc6ec2",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "99ffcc6ec25c860149e496eca6382bd2faa2d2af"
+  },
+  "_source": "git://github.com/MichelAyala/bootstrap-elements.git",
+  "_target": "*",
+  "_originalSource": "MichelAyala/bootstrap-elements",
+  "_direct": true
+}
