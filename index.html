@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+    <script src="../webcomponentsjs/webcomponents-lite.js"> </script>
+    <link rel="import" href="great-card.html">
+    <style is="custom-style">
+        great-card .caaard{
+            color: red;
+            border: green solid 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Component </h1>
+    
+    <template is="dom-bind" id="g" nombre="mee">
+        
+        <great-card >
+            <great-card nombre="{{nombre}}">
+                Esta es la segunda carta
+            </great-card>
+        </great-card>
+    </template>
+</body>
+</html>
